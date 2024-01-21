@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Daisy Bavhi font here also Tailwind css cdn here -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+    <!-- font awesome start -->
+    <script src="https://kit.fontawesome.com/11e41873bf.js" crossorigin="anonymous"></script>
+    <!-- font awesome end -->
+    <!-- fonts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- font end here -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice</title>
+    <!-- custom  color edit here -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                btnbackground: '#B68C5A',
+                textcolor: '#707070',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .font-family {
+            font-family: "EB Garamond", serif;
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-family">
+    <header class="">
+        <!-- nav section here start -->
+        <nav class="container mx-auto mt-12">
+            <!-- <h1 class="font-Poppins">Hello word</h1>
+            <h1 class="font-EB Garamond">Hello word</h1> -->
+
+            <div>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>Services</a></li>
+                          <li><a>Cases</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                      <div class="flex  items-center">
+                        <img class="w-20 lg:w-48 mr-2" src="images/logo2.png" alt="">
+                        <!-- <a class=" text-4xl text-center font-extrabold">Justice</a> -->
+                      </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 font-Poppins text-[#707070]">
+                        <li><a>Home </a></li>
+                          <li><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                          <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                          <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                          <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="text-[11px] pt-1 pb-1 pr-2 pl-2 text-white bg-btnbackground lg:pt-4 lg:pb-4 lg:pr-7 lg:pl-7 lg:font-normal rounded-lg">Free Consultation</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <!-- nav section end here -->
+        <!-- banner section start here -->
+        <section class="container mx-auto text-center ">
+            <div>
+                <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+                    <div class=""></div>
+                    <div class="hero-content text- text-white font-EB Garamond">
+                      <div class="">
+                        <h1 class="mb-5 text-7xl font-extrabold   text-center  ">We Provide Effective <br>
+                             Legal Solutions</h1>
+                        <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <button class="btn btn-primary ">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
